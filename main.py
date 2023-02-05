@@ -1,3 +1,4 @@
+
 var_1 = 93
 var_2 = 23.34
 var_3 = 22j + 12
@@ -28,4 +29,34 @@ all_dict = {"var_1": var_1,
 for key, value in all_dict.items():
     print(key, ' : ', type(value))
 
-#####################################################################
+# Output:
+
+# var_1  :  <class 'int'>
+# var_2  :  <class 'float'>
+# var_3  :  <class 'complex'>
+# var_4  :  <class 'str'>
+# var_5  :  <class 'bool'>
+# var_6  :  <class 'bool'>
+# var_7  :  <class 'list'>
+# var_8  :  <class 'dict'>
+# var_9  :  <class 'tuple'>
+# var_10  :  <class 'set'>
+
+#################################################
+
+dict_with_for = {}
+for item in range(1, 11):
+    dict_with_for["var_" + str(item)] = []
+    dict_with_for["var_" + str(item)].append(eval("var_" + str(item)))
+
+print("--------------------------------------------")
+
+for keys,values in dict_with_for.items():
+    print(keys)
+    print(values)
+
+print("--------------------------------------------")
+
+for key, value in dict_with_for.items():
+    for element in value:
+        print(key, ":", type(element))
