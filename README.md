@@ -1,1 +1,2 @@
-## This is Git tutorial.
+## Python Diary
+#### In this section, I sharing with you a notebook of short codes. Python is a constantly evolving and growing ecosystem. And it's fun to be part of this community. Let's keep evolving and learning together. Let's get started. 
