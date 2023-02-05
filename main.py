@@ -200,3 +200,5 @@ print(dictionary)
 # Q4: Add new key(Jack) with value(London, Lawyer ,34)
 # Q5: Delete the Nick from the dict.
 ######################################################################
+
+# YENİ KOD SATIRI
